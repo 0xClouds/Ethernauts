@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.17;
+pragma solidity ^0.6.0;
 
 interface ICoinFlip {
     function flip(bool _guess) external returns (bool);
@@ -9,15 +9,15 @@ interface ICoinFlip {
 }
 
 contract CoinFlip {
-    ICoinFlip coinFlipContract;
-    uint256 public lastBlock;
-    uint256 lastHash;
-    uint FACTOR =
+    ICoinFlip internal coinFlipContract;
+    uint256 internal lastBlock;
+    uint256 internal lastHash;
+    uint internal FACTOR =
         57896044618658097711785492504343953926634992332820282019728792003956564819968;
 
-    constructor() {
+    constructor() public {
         coinFlipContract = ICoinFlip(
-            0xb1988228bf9B433Aed38d9Ee1a2a30087bB338AE
+            0x6C53e401F19FaBd22bd04AD79Dc196C78ac00634
         );
         lastBlock = block.number;
     }
