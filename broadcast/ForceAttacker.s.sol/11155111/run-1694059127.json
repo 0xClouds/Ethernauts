@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "hash": "0x7535a88e6a6af4638e2e48a03c3a24b5fa9f6b51dd741e4ee8c15458d38c6666",
+      "transactionType": "CREATE",
+      "contractName": "Selfdestruct",
+      "contractAddress": "0xB4c00161D0744fAA12bd5aaDee59D9493e0CFE3b",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6117aac3b7e3d53f0a3009e70f5ecf73f7c9af02",
+        "gas": "0x20531",
+        "value": "0x0",
+        "data": "0x6080604052600080546001600160a01b03191673a063d094e5e573d88928ea310d14ed6dcf14fe63179055348015603557600080fd5b506077806100446000396000f3fe60806040526004361060205760003560e01c80639e5faafc14602b57600080fd5b36602657005b600080fd5b60316033565b005b6000546001600160a01b0316fffea2646970667358221220d34f9a75c5e91f2ff8d52fa2ca3fd5e1eadb6ccbfdebbce98b44446e789e838064736f6c63430008140033",
+        "nonce": "0x58",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0xfea8c1150c30714319ea28da7d7d1d08570df1df6467fdbc4e52fc198b40534f",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": null,
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6117aac3b7e3d53f0a3009e70f5ecf73f7c9af02",
+        "to": "0xb4c00161d0744faa12bd5aadee59d9493e0cfe3b",
+        "gas": "0x7199",
+        "value": "0x2386f26fc10000",
+        "data": "0x",
+        "nonce": "0x59",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x7535a88e6a6af4638e2e48a03c3a24b5fa9f6b51dd741e4ee8c15458d38c6666",
+    "0xfea8c1150c30714319ea28da7d7d1d08570df1df6467fdbc4e52fc198b40534f"
+  ],
+  "returns": {},
+  "timestamp": 1694059127,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "5683cbb"
+}
