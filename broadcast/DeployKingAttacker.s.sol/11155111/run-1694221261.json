@@ -1,0 +1,33 @@
+{
+  "transactions": [
+    {
+      "hash": "0xea018b914dc98516dae9a243e73fe9aa0b2103d7dc1dcb862647aff933f82542",
+      "transactionType": "CREATE",
+      "contractName": "KingAttacker",
+      "contractAddress": "0xd3acd25D0DEE1AeAa21277F54a37b8b25483226D",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6117aac3b7e3d53f0a3009e70f5ecf73f7c9af02",
+        "gas": "0x32ce4",
+        "value": "0x2c68af0bb140000",
+        "data": "0x60806040819052600080546001600160a01b0319167301caa79cb256d09104578251a24f12d40f0dde4d908117825534600181905591929091908381818185875af1925050503d8060008114606f576040519150601f19603f3d011682016040523d82523d6000602084013e6074565b606091505b505090508060b15760405162461bcd60e51b815260206004820152600660248201526519985a5b195960d21b604482015260640160405180910390fd5b50603f806100c06000396000f3fe6080604052600080fdfea26469706673582212205c560667b9ee735c1d87de9a8ff7bfdb4530f7105994158b5ce0eeb56b57a52864736f6c63430008140033",
+        "nonce": "0x61",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xea018b914dc98516dae9a243e73fe9aa0b2103d7dc1dcb862647aff933f82542"
+  ],
+  "returns": {},
+  "timestamp": 1694221261,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "c8c0800"
+}
