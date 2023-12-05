@@ -1,0 +1,49 @@
+{
+  "transactions": [
+    {
+      "hash": "0xeb232e8bf7c3bb975415fc75e5fc68963954595480b336db20e8b04942a9f906",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x6de372F8d90F05ea98f0fBa48b10C4DE4ed754d2",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6117aac3b7e3d53f0a3009e70f5ecf73f7c9af02",
+        "to": "0x6de372f8d90f05ea98f0fba48b10c4de4ed754d2",
+        "gas": "0x8940",
+        "value": "0x0",
+        "data": "0xe1afb08c930a431f0d7603e691546f183f76a23800000000000000000000000000000000",
+        "nonce": "0x79",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xeb232e8bf7c3bb975415fc75e5fc68963954595480b336db20e8b04942a9f906",
+      "transactionIndex": "0x0",
+      "blockHash": "0x70beb1897d192b42e7bdef697b7903cfc2c0cc1b940095a84be0f6ec3713025d",
+      "blockNumber": "0x42e3bd",
+      "from": "0x6117AAc3b7E3D53F0A3009E70F5Ecf73F7C9AF02",
+      "to": "0x6de372F8d90F05ea98f0fBa48b10C4DE4ed754d2",
+      "cumulativeGasUsed": "0x5dd9",
+      "gasUsed": "0x5dd9",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0xf9aab7c4"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1695929775,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "c0f3814"
+}
