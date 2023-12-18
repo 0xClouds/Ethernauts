@@ -1,0 +1,77 @@
+{
+  "transactions": [
+    {
+      "hash": "0x0e6ca6e7a0a37fab88691031f8847960d7d880e01cff805a6a54cc1debe16206",
+      "transactionType": "CREATE",
+      "contractName": "NaughtCoinAttack",
+      "contractAddress": "0x548cA5EB35CEA361bB926E68e3538f64379aBcb0",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6117aac3b7e3d53f0a3009e70f5ecf73f7c9af02",
+        "gas": "0x2c84b",
+        "value": "0x0",
+        "data": "0x6080604052600080546001600160a01b0319167390a8eefef43351256914dc7d5a280c929eba9b3117905534801561003657600080fd5b50610129806100466000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636aaeff5d14602d575b600080fd5b603c603836600460b4565b603e565b005b60005460405163a9059cbb60e01b8152306004820152602481018390526001600160a01b039091169063a9059cbb906044016020604051808303816000875af1158015608e573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019060b0919060cc565b5050565b60006020828403121560c557600080fd5b5035919050565b60006020828403121560dd57600080fd5b8151801515811460ec57600080fd5b939250505056fea26469706673582212202b851566c728336d95ba19cf0fcf5b6357382e188d98f5d2994210991283e10a64736f6c63430008140033",
+        "nonce": "0x91",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0990009d21b6d940eddc19f14a20b7e82504ad6ee295e1b25eb357a2ae828d82",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x90A8eEFef43351256914dC7D5a280c929eba9b31",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6117aac3b7e3d53f0a3009e70f5ecf73f7c9af02",
+        "to": "0x90a8eefef43351256914dc7d5a280c929eba9b31",
+        "gas": "0x8df5",
+        "value": "0x0",
+        "data": "0x095ea7b3000000000000000000000000548ca5eb35cea361bb926e68e3538f64379abcb00000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x92",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x3ff8d2f9558f9178b39d27b272508580b9ec2b69d90d75c37ac2ff1246165632",
+      "transactionType": "CALL",
+      "contractName": "NaughtCoinAttack",
+      "contractAddress": "0x548cA5EB35CEA361bB926E68e3538f64379aBcb0",
+      "function": "sendFundsOut(uint256)",
+      "arguments": [
+        "0"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6117aac3b7e3d53f0a3009e70f5ecf73f7c9af02",
+        "to": "0x548ca5eb35cea361bb926e68e3538f64379abcb0",
+        "gas": "0xb69e",
+        "value": "0x0",
+        "data": "0x6aaeff5d0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x93",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x0e6ca6e7a0a37fab88691031f8847960d7d880e01cff805a6a54cc1debe16206",
+    "0x0990009d21b6d940eddc19f14a20b7e82504ad6ee295e1b25eb357a2ae828d82",
+    "0x3ff8d2f9558f9178b39d27b272508580b9ec2b69d90d75c37ac2ff1246165632"
+  ],
+  "returns": {},
+  "timestamp": 1702592548,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "f1e95de"
+}
