@@ -1,0 +1,51 @@
+{
+  "transactions": [
+    {
+      "hash": null,
+      "transactionType": "CREATE",
+      "contractName": "MagicNumber",
+      "contractAddress": "0x5b73C5498c1E3b4dbA84de0F1833c4a029d90519",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x1804c8ab1f12e6bbf3894d4083f33e07309d1f38",
+        "gas": "0x11915",
+        "value": "0x0",
+        "data": "0x600a600c600039600a6000f3602a60805260206080f3",
+        "nonce": "0x2",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x10E52109e7E2f8419f22e43522b4fef8680ab50d",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x1804c8ab1f12e6bbf3894d4083f33e07309d1f38",
+        "to": "0x10e52109e7e2f8419f22e43522b4fef8680ab50d",
+        "gas": "0xfa31",
+        "value": "0x0",
+        "data": "0x1f87943300000000000000000000000034a1d3fff3958843c43ad80f30b94c510645c316",
+        "nonce": "0x3",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1704932506,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "9d90caf"
+}
